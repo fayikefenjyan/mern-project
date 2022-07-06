@@ -82,8 +82,4 @@ const generateToken = (id) => {
   })
 }
 
-module.exports = {
-  registerUser,
-  loginUser,
-  getMe,
-}
+module.exports = { registerUser, loginUser, getMe }
